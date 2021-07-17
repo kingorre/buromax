@@ -1,0 +1,36 @@
+$accent: #004494;
+
+
+%bg-pseudo {
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+$xl: 1440px;
+$lg: 1200px;
+$md: 992px;
+$sm: 768px;
+$xs: 480px;
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
+@mixin media-w($w) {
+  @media only screen and (max-width: $w) {
+    @content;
+  }
+}
+
+@mixin media-h($h) {
+  @media only screen and (max-height: $h) {
+    @content;
+  }
+}

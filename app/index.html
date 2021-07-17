@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buromax | Акція</title>
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="container">
+        <nav class="header__menu">
+          <a class="header__logo logo" href="#top">
+            <img class="logo__img" src="images/logo.png" alt="logo">
+          </a>
+
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#rules">Правила</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#register">Взяти участь</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#products">Акційна продукція</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#winners">Переможці</a>
+            </li>
+          </ul>
+
+          <a class="header__link social-link btn-effect" href="#">
+            <svg>
+              <use xlink:href="images/sprites/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+
+          <button class="burger" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <main class="main" id="top">
+      <section class="top">
+        <div class="container">
+          <div class="top__inner">
+
+            <div class="top__content">
+              <h1 class="top__title text-gradient">Вирушай до Парижа</h1>
+              <div class="top__box">
+                <div class="top__text">
+                  <p>
+                    Купуй щоденники ТМ BuroMax і отримуй
+                    унікальну можливість виграти путівку
+                    до столиці Франції.
+                  </p>
+                </div>
+                <a class="top__btn main-btn" href="#">Стати учасником</a>
+              </div>
+            </div>
+
+            <div class="top__photo">
+              <div class="top__images _img-cover top__image--1">
+                <img class="top__img" src="images/top-image-1.jpg" alt="Описание">
+              </div>
+              <div class="top__images _img-cover top__image--2">
+                <img class="top__img" src="images/top-image-2.jpg" alt="Описание">
+              </div>
+              <div class="top__images _img-cover top__image--3">
+                <img class="top__img" src="images/top-image-3.jpg" alt="Описание">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="rules" id="rules">
+        <div class="container">
+          <div class="rules__top">
+            <h2 class="rules__title text-gradient">Акция</h2>
+            <div class="rules__text">
+              <p>
+                Купуй щоденник TM Buromax, приймай участь у акції та отримай шанс виграти подорож до Парижу або інші
+                цінні подарунки!
+
+              </p>
+              <p>
+                Для участі у розіграші зроби та завантаж своє фото с щоденником TM Buromax
+              </p>
+            </div>
+          </div>
+
+          <div class="rules__bottom">
+            <div class="rules__info">
+              <p>
+                *Акція діє з 01.11.2018 по 31.01.2019 (включно) по всій території України, окрім непідконтрольній
+                українській владі території АР Крим та в зоні проведення АТО
+              </p>
+            </div>
+
+            <a class="rules__download main-btn" href="images/icons/facebook.png" download>
+              Детальніше
+              <svg>
+                <use xlink:href="images/sprites/sprite.svg#pdf"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="register" id="register">
+        <div class="container">
+          <h2 class="register__title title text-gradient">Заповнiть анкету, щоб прийняти участь</h2>
+
+          <div class="register__form">
+            <h3 class="register__subtitle title text-gradient">Анкета учасника</h3>
+            <form class="form" action="#">
+              <div class="form__inner">
+                <div class="form__box">
+                  <label class="form__label">
+                    Ім’я
+                    <input class="form__input" type="text" name="name" required>
+                  </label>
+
+                  <label class="form__label">
+                    По-батькові
+                    <input class="form__input" type="text" name="patronymic" required>
+                  </label>
+
+                  <label class="form__label">
+                    Прізвище
+                    <input class="form__input" type="text" name="surname" required>
+                  </label>
+                </div>
+
+                <div class="form__box">
+                  <span>Стать</span>
+                  <label class="form__label form__label--radio">
+                    <input class="form__input form__input--radio" type="radio" name="sex" required>
+                    Жін.
+                  </label>
+
+                  <label class="form__label form__label--radio">
+                    <input class="form__input form__input--radio" type="radio" name="sex" required>
+                    Чол.
+                  </label>
+
+                  <label class="form__label">
+                    Вік
+                    <input class="form__input form__input--age form__input--right" type="number" name="patronymic"
+                      max-value="99" required>
+                  </label>
+
+                  <label class="form__label">
+                    Телефон
+                    <input class="form__input form__input--right" name="phone" type="tel"
+                      pattern="([0-9]{2}\)[0-9]{3}-[0-9]{2}-[0-9]{2}" maxlength="13" placeholder="+380 (**) *** ** **"
+                      required>
+                  </label>
+                </div>
+              </div>
+
+              <button class="form__btn" type="submit">
+                Відправити
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="container">
+          <h2 class="products__title title text-gradient">Акцiйна продукцiя</h2>
+
+          <ul class="products__gallery gallery">
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--1" href="#">
+                <img class="gallery__img" src="images/gallery-image-1.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--2" href="#">
+                <img class="gallery__img" src="images/gallery-image-2.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--3" href="#">
+                <img class="gallery__img" src="images/gallery-image-3.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--4" href="#">
+                <img class="gallery__img" src="images/gallery-image-4.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--5" href="#">
+                <img class="gallery__img" src="images/gallery-image-5.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--6" href="#">
+                <img class="gallery__img" src="images/gallery-image-6.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--7" href="#">
+                <img class="gallery__img" src="images/gallery-image-7.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+
+            <li class="gallery__item">
+              <a class="gallery__link gallery__link--8" href="#">
+                <img class="gallery__img" src="images/gallery-image-8.png" alt="описание">
+                <div class="gallery__box">
+                  <h3 class="gallery__name">Щоденник шкiряний</h3>
+                  <div class="gallery__text">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor in
+                    </p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <a class="products__btn main-btn" href="#">Вся акцiйна продукцiя</a>
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="container">
+          <div class="about__top">
+            <h2 class="about__title title text-gradient">Про</h2>
+
+            <a class="about__logo logo" href="#">
+              <img class="logo__img about__img" src="images/logo.png" alt="logo">
+            </a>
+          </div>
+
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                <span>BUROMAX</span> – це бренд з найширшим і збалансованим асортиментом, що допоможе задовільнити
+                будь-які потреби у канцелярських товарах як для домашнього, так і для професійного використання.
+              </p>
+
+              <p>
+                Історія торгової марки почалася з 2003 року, і сьогодні Buromax є найвідомішим брендом – лідером серед
+                канцелярських торгових марок в Україні (за результатами дослідження компанії GFK у грудні 2016 року).
+              </p>
+            </div>
+
+            <div class="about__picture _img-cover" style="background-image: url('images/about1.png');">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="winners" id="winners">
+        <div class="container">
+          <h2 class="winners__title title text-gradient">Переможцi</h2>
+          <div class="winners__content">
+            <ul class="winners__list">
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-1.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-2.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-3.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-4.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-5.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-6.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-7.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+
+              <li class="winners__item _img-cover">
+                <img class="winners__img" src="images/winners-image-8.jpg" alt="описание">
+
+                <div class="winners__info">
+                  <span class="winners__name">Антон, Одеса</span>
+                  <span class="winners__age">16 рокiв</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="winners__box">
+              <h3 class="winners__subtitle">Париж чекає На тебе!</h3>
+              <div class="winners__text">
+                <p>
+                  Розіграш відбудеться <time>15 лютого 2019 року</time> за допомогою сервісу random.org.
+                  Одразу після розіграшу імена переможців будуть опубліковані на цій сторінці!
+                </p>
+                <p>
+                  Хай щастить!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <a class="winners__btn main-btn" href="№">
+            Показати всіх
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <a class="footer__logo logo" href="#">
+            <img class="logo__img" src="images/logo.png" alt="logo">
+          </a>
+
+          <div class="footer__contact">
+            <a class="footer__link" href="mailto:promo@buromax.ua">
+              promo@buromax.ua
+            </a>
+            <a class="footer__link" href="tel:+380676140121">
+              +38 (067) 614 0121
+            </a>
+          </div>
+
+          <a class="social-link btn-effect" href="#">
+            <svg>
+              <use xlink:href="images/sprites/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'FiraSans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/FiraSans-Light.woff2') format('woff2'), 
+       url('../fonts/FiraSans-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/FiraSans-Regular.woff2') format('woff2'), 
+       url('../fonts/FiraSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/FiraSans-Medium.woff2') format('woff2'), 
+       url('../fonts/FiraSans-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'FiraSans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/FiraSans-SemiBold.woff2') format('woff2'), 
+       url('../fonts/FiraSans-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NautilusPompilus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/NautilusPompilius.woff2') format('woff2'), 
+       url('../fonts/NautilusPompilius.woff') format('woff');
+}
